@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2016/10/20 17:52:50.000.937,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2016/12/26 19:52:09.000.305,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/05 13:38:14.000.567,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/05 18:04:45.000.932,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/05 18:06:20.000.051,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Rectangulo.dfm=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/01/05 18:06:20.000.051,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Rectangulo.pas=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/01/05 18:14:02.000.518,=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/01/05 18:14:43.000.894,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Triangulo.pas=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/01/05 18:14:43.000.894,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Triangulo.dfm=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Unit2.dfm</Transaction>
+    <Transaction>2017/01/05 18:14:44.000.708,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Project1.dproj=C:\Users\Pedro\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/01/05 18:29:16.000.310,=I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Unit3.pas</Transaction>
+    <Transaction>2017/01/05 18:29:52.000.423,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Circulo.dfm=I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Unit3.dfm</Transaction>
+    <Transaction>2017/01/05 18:29:52.000.423,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Circulo.pas=I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Unit3.pas</Transaction>
+    <Transaction>2017/01/05 18:37:56.000.976,=I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Unit4.pas</Transaction>
+    <Transaction>2017/01/05 18:38:36.000.578,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Dibujar.pas=I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Unit4.pas</Transaction>
+    <Transaction>2017/01/05 18:38:36.000.578,I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Dibujar.dfm=I:\DAM2\Des. interfaces\delfi\EJERCICIOS CANVAS\Canvas_casa1\Unit4.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

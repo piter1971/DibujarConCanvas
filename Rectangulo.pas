@@ -1,0 +1,89 @@
+unit Rectangulo;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls,Triangulo;
+
+type
+  TForm1 = class(TForm)
+    CrearRectangulo: TButton;
+    PosicionarRectangulo: TButton;
+    IraTriangulo: TButton;
+    procedure CrearRectanguloClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+    procedure FormPaint(Sender: TObject);
+    procedure PosicionarRectanguloClick(Sender: TObject);
+    procedure FormMouseUp(Sender: TObject; Button: TMouseButton;
+      Shift: TShiftState; X, Y: Integer);
+    procedure IraTrianguloClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+  Rectangul :Boolean;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm1.CrearRectanguloClick(Sender: TObject);
+var
+R:TRect;
+begin
+with Canvas do
+begin
+  Pen.Color := ClRed;
+  Pen.Width := 3;
+  Brush.Color := ClBlue;
+  R.Left :=10;
+  R.Top :=10;
+  R.Bottom :=50;//alto
+  R.Right :=100; //ancho
+  Rectangle(R);
+end;
+end;
+
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  Rectangul:=false;
+end;
+
+procedure TForm1.FormMouseUp(Sender: TObject; Button: TMouseButton;
+  Shift: TShiftState; X, Y: Integer);
+begin
+if Rectangul then
+   Canvas.Rectangle(x,y,  x+100,y+50); // X+100 (ancho), Y +50 (alto) ;
+end;
+
+
+procedure TForm1.FormPaint(Sender: TObject);
+begin
+with Canvas do
+begin
+  Pen.Color := ClRed;  {color de la linea exterior}
+  Pen.Width := 3;       {grosor de la linea exterior}
+  Brush.Color := ClBlue; {Color de fondo}
+  Rectangle(30,100,100,200);
+          {Posicion= x30 ,y=100 y Medidas del rectangulo ancho=400, alto=200}
+end;
+end;
+
+
+procedure TForm1.IraTrianguloClick(Sender: TObject);
+begin
+  Form2.showmodal;
+end;
+
+procedure TForm1.PosicionarRectanguloClick(Sender: TObject);
+begin
+Rectangul :=true;
+end;
+
+end.
